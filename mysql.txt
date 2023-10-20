@@ -1,0 +1,34 @@
+Hope you can understand my explanation.
+
+tools:
+(java)intelliJ IDEA
+(mysql)DataGrip
+
+please create a package named lingwoerlun
+which means lingwo's second text.
+lingwo is a name of a team.
+And add this list into this package
+
+create table administrator
+(
+    account  int         null,
+    password varchar(50) null
+);
+
+create table class
+(
+    id        bigint      null,
+    name      varchar(50) null,
+    Classtime varchar(50) null,
+    teacher   varchar(50) null
+);
+
+create table student
+(
+    name     varchar(50)  null,
+    id       varchar(50)  null,
+    age      varchar(3)   null,
+    sex      varchar(3)   null,
+    password varchar(50)  null,
+    class    varchar(200) null
+);
